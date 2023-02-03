@@ -33,6 +33,7 @@ describe('homepage2', function () {
              */
             .useXpath()
             .click('/html/body/div[1]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[3]/div[1]/div[1]/div')
+            .pause(1000)
             .click('/html/body/div[1]/div[1]/div[2]/div[2]/div/div[1]/div[2]/div/div/div[1]/div[3]/div[2]/div/div/div[1]/div')
             .useCss()
             .pause(1000)
