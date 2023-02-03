@@ -11,7 +11,7 @@
     "gen": "node ./dir/index.js",
     "auto-test": "yarn test:std && yarn test && yarn gen && yarn majestic",
     "clear-all": "node ./bin/clear.js --all",
-    "clear": "node ./bin/clear.js
+    "clear": "node ./bin/clear.js"
   },
   "dependencies": {
     "@types/pngjs": "^6.0.1",
