@@ -1,4 +1,3 @@
 module.exports = {
-    precision: 0.996,
-    server:"http://localhost:3000",
+    precision: 0.997
 }
