@@ -5,10 +5,14 @@
 在package.json文件中，修改服务器地址和账号密码用于登录服务器
 修改`test:std`和`test`两个命令的`--server`地址和`--key`账号密码
 ![image](./info/package.png)
-先生成标准截图，在生成测试截图
+
+先生成标准截图，再生成测试截图
 
 ## 测试编写说明
-只用在`script`文件下编写操作和截图脚本，其它内容可完全自动化 
+只需要在`script`文件下编写操作和截图脚本，其它内容可完全自动化
+
+参考写法
+![image](./info/demo.png)
 
 ## 一键执行
 `yarn auto-test`
