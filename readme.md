@@ -30,7 +30,9 @@ Xpath直接到浏览器上选择元素复制
 (`yarn test:std`) (如果每个测试用例都已经有标准截图文件就不用执行这一行)
 
 `yarn auto-test`
-会逐步执行下面命令
+
+会逐步执行单步执行的命令
+
 脚本执行完后会打开单测页面，在打开的浏览器上面手动操作测试用例即可
 ![image](./info/example.png)
 
@@ -50,7 +52,10 @@ Xpath直接到浏览器上选择元素复制
 自动生成单测命令 `yarn gen` 命令根据标准截图的路径，生成单测js，需要保证`标准截图`和`测试截图`同时存在对应截图文件
 
 ## 写操作
-在`script`文件目录下写操作文件，`yarn gen`会根据`script`下的目录，在`sources`下构造同样目录的截图。
+在`script`文件目录下写操作文件
+
+`yarn gen`会根据`script`下的目录，在`sources`下构造同样目录的截图。
+
 `demo`可以参考`script/homepage/1.js`
 
 ## 对比 (majestic)手动控制单测
