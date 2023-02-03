@@ -68,7 +68,7 @@ Xpath直接到浏览器上选择元素复制
 ## 清理文件
 `yarn clear-all` 清理所有标准和测试文件
 
-`yarn clear` 请求所有测试文件
+`yarn clear` 清理所有测试文件
 
 
 
