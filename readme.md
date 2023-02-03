@@ -58,6 +58,11 @@ Xpath直接到浏览器上选择元素复制
 标准：`sources/main/**/*.png`
 测试：`sources/test/**/*.png`
 
+## 清理文件
+`yarn clear-all` 清理所有标准和测试文件
+
+`yarn clear` 请求所有测试文件
+
 
 
 

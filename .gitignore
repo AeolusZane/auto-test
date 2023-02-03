@@ -4,3 +4,4 @@ tests_output
 logs
 .DS_Store
 sources/test/**/*.png
+yarn-error.log
