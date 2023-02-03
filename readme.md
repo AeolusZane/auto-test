@@ -20,6 +20,9 @@ nodejs官网：https://nodejs.org/en/
 ## 测试编写说明
 只需要在`script`文件下编写操作和截图脚本，其它内容可完全自动化
 
+Xpath直接到浏览器上选择元素复制
+![image](./info/xpath.png)
+
 参考写法
 ![image](./info/demo.png)
 
