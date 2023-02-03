@@ -1,3 +1,12 @@
+## tip
+需要安装nodejs、yarn
+
+nodejs官网：https://nodejs.org/en/
+
+安装nodejs后，安装yarn到全局
+
+`npm install yarn -g`
+
 ## 安装
 `yarn`
 
