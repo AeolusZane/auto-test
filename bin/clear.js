@@ -21,7 +21,8 @@ function deleteall(path) {
     }
 };
 
-deleteall('./sources');
+deleteall('./sources/test');
+deleteall('./test');
 if (all) {
-    deleteall('./test');
+    deleteall('./sources/main');
 }
